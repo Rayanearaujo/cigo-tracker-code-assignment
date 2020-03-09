@@ -1,0 +1,13 @@
+.orders-btn{
+    width: 60%;
+}
+.orders-delete-btn{
+    margin-left: 5px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.grid-view-container{
+    overflow-y: scroll;
+    Height:350px;
+}
