@@ -34,10 +34,10 @@ Run the following command to install all projects dependencies:
 
 #### Setup the Database
 
-Create a database called ```cigo``` or login to your SQL client and run the commands provided on the sql file located
-on the project root called database.sql.
+Create a database called ```cigo``` or login to your SQL client and run the command provided on the sql file located
+on the project root called ```database.sql```.
 
-If you prefer to use different configurations, you can edit the file `config/db.php` , for example:
+Now, edit the file `config/db.php` with your database connection configuration, for example:
 
 ```php
 return [
@@ -52,6 +52,10 @@ return [
 After that, run the migrations to create the required tables by running:
 
 ```yii migrate```
+
+Now, run the following command to serve the application:
+
+```yii serve```
 
 After that, you can access the application on your browser by navigating to the following URL:
 
